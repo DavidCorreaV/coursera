@@ -83,6 +83,7 @@ h3 {
   padding: 0px;
   margin: 0px;
 }
+
 .tile {
   background-color: #bf4aa8;
   color: #d9d9d9;
@@ -91,17 +92,18 @@ h3 {
 }
 
 .btt {
-height: 40px;
-width: 100%;
-font-size:1.8em;
+  height: 40px;
+  width: 100%;
+  font-size: 1.8em;
 }
 
 .buttan {
   width: 100% !important;
   color: #d9d9d9;
-  background-color:  #bf4aa8;
+  background-color: #bf4aa8;
 }
-.buttan:hover{
+
+.buttan:hover {
   text-decoration: none;
 }
 
@@ -109,9 +111,10 @@ font-size:1.8em;
   background-color: #d9d9d9 !important;
   color: #bf4aa8 !important;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   #sushitile {
     margin: 25px auto auto;
-    width:95%;
+    width: 95%;
   }
 }
