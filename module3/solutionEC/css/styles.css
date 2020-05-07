@@ -1,0 +1,117 @@
+body {
+  background-color: #51d0de;
+  color: black;
+  font-family: Tahoma, sans-serif;
+}
+
+#hnavbar {
+  background-color: #bf4aa8;
+  color: #d9d9d9;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: #bf4aa8;
+  color: #d9d9d9;
+  border-radius: 0;
+  /*  padding: 0px 0px 0px 0px;
+//*  margin: 0px 0px 0px 0px;*/
+}
+
+.navbar-default:hover .navbar-nav>.active>a:hover {
+  background-color: #d9d9d9;
+  color: #bf4aa8;
+  border-radius: 0;
+}
+
+li {
+  font-style: bold;
+  font-size: 1.2em;
+  border: 2px solid #51d0de;
+}
+
+#lista, #dmenu {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+
+#hnavbar h1 {
+  padding: 0px 0px 0px 20px;
+  margin: 0px;
+}
+
+.navbar-brand {
+  margin: 5px auto 30px;
+}
+
+h1 {
+  color: #d9d9d9;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#hnavbar button.navbar-toggle {
+  margin-top: 25px;
+}
+
+#hnavbar button.navbar-toggle:hover {
+  background-color: #d9d9d9;
+}
+
+h2 {
+  padding: 0px;
+  margin: 5px auto 20px auto;
+  color: #bf4aa8;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 5px auto 25px auto;
+}
+
+#main, .tile {
+  margin: 10px auto 10px;
+  padding: 10px auto 10px;
+}
+
+.elem {
+  padding: 0px;
+  margin: 0px;
+}
+.tile {
+  background-color: #bf4aa8;
+  color: #d9d9d9;
+  padding: 15px;
+  width: 90%;
+}
+
+.btt {
+height: 40px;
+width: 100%;
+font-size:1.8em;
+}
+
+.buttan {
+  width: 100% !important;
+  color: #d9d9d9;
+  background-color:  #bf4aa8;
+}
+.buttan:hover{
+  text-decoration: none;
+}
+
+.btt:hover {
+  background-color: #d9d9d9 !important;
+  color: #bf4aa8 !important;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #sushitile {
+    margin: 25px auto auto;
+    width:95%;
+  }
+}
